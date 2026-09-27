@@ -1,5 +1,7 @@
 # Linux + C++ 网络编程练习
 
+> **初试后复习入口：[复试复习总纲.md](复试复习总纲.md)**（资产地图 / 三周复习路线 / 20 道自测 / 环境重建指南）
+
 从零递进实现四个版本的 TCP 服务器，最终读通 [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)（Apache 2.0）源码并修复其 bug 的过程记录。所有代码在 WSL2 (Ubuntu) 下用 g++ 编译通过。
 
 ## 四个递进版本
