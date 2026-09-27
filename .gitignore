@@ -1,0 +1,20 @@
+# 编译产物（Windows 侧不编译，防御性忽略）
+*.o
+*.out
+echo_server
+echo_server_mt
+echo_server_pool
+echo_server_pool_tsan
+epoll_server
+epoll_server_broken
+leak_demo
+leak_demo_plain
+alarm_demo
+ServerLog*
+2026_*ServerLog*
+
+# 实验日志
+*.log
+
+# 编辑器
+.vscode/
